@@ -1,0 +1,191 @@
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Thu May 22 15:03:00 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.4/loaded/201404/load/script/rmis_valid_sum_list.ctl
+Data File:      /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.4/loaded/201404/load/data/ods.rmis_valid_sum_list.20140401.000.000.00.i.dat
+  Bad File:     /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.4/loaded/201404/load/data/rmis_valid_sum_list20140401.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table RMIS.RMIS_VALID_SUM_LIST, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SCODE                               FIRST     *           CHARACTER            
+    Terminator string : '|'
+SNAME                                NEXT     *           CHARACTER            
+    Terminator string : '|'
+TCODE                                NEXT     *           CHARACTER            
+    Terminator string : '|'
+TNAME                                NEXT     *           CHARACTER            
+    Terminator string : '|'
+THCODE                               NEXT     *           CHARACTER            
+    Terminator string : '|'
+THNAME                               NEXT     *           CHARACTER            
+    Terminator string : '|'
+AGENTCOM                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+BANKNODE                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+AGENTGROUP                           NEXT     *           CHARACTER            
+    Terminator string : '|'
+NAME_TD                              NEXT     *           CHARACTER            
+    Terminator string : '|'
+SERVERFLAG                           NEXT     *           CHARACTER            
+    Terminator string : '|'
+RISKCODE                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+RISKENNAME                           NEXT     *           CHARACTER            
+    Terminator string : '|'
+SALECHNL                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+ISOLDINSURE                          NEXT     *           CHARACTER            
+    Terminator string : '|'
+CVALIDATE                            NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+ENDDATE                              NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+SUMACTUPAYMONEY                      NEXT     *           CHARACTER            
+    Terminator string : '|'
+CONTNO                               NEXT     *           CHARACTER            
+    Terminator string : '|'
+TIMESTAMP_TD                         NEXT     *           CHARACTER            
+    Terminator string : '|'
+
+value used for ROWS parameter changed from 64 to 49
+Record 1: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 2: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 3: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column CVALIDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 4: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 5: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 6: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 7: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 8: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 9: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 10: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 11: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 12: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 13: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 14: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 15: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 16: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 17: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column CVALIDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 18: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 19: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 20: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column CVALIDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 21: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 22: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 23: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 24: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 25: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column CVALIDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 26: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 27: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 28: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 29: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 30: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 31: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 32: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 33: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column CVALIDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 34: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 35: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 36: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 37: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 38: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 39: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column CVALIDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 40: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 41: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 42: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 43: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 44: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column CVALIDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 45: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 46: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column CVALIDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 47: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column SUMACTUPAYMONEY.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 48: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 49: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column CVALIDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 50: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 51: Rejected - Error on table RMIS.RMIS_VALID_SUM_LIST, column ENDDATE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+
+MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
+
+Table RMIS.RMIS_VALID_SUM_LIST:
+  0 Rows successfully loaded.
+  51 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 252840 bytes(49 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            51
+Total logical records rejected:        51
+Total logical records discarded:        0
+
+Run began on Thu May 22 15:03:00 2014
+Run ended on Thu May 22 15:03:00 2014
+
+Elapsed time was:     00:00:00.10
+CPU time was:         00:00:00.03

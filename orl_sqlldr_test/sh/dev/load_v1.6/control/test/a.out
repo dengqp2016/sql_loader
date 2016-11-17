@@ -1,0 +1,33 @@
++ '[' -f file ']'
++ mkdir file
+mkdir: cannot create directory `file': File exists
+++ pwd
++ HOME=/ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.2/control
++ echo /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.2/control
+/ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.2/control
+++ cat ../config_file/db_conn.unl
++ line='rmis|rmis#123|ods|'
+++ echo 'rmis|rmis#123|ods|'
+++ awk -F '|' '{print $1}'
++ DBUSER=rmis
+++ echo 'rmis|rmis#123|ods|'
+++ awk -F '|' '{print $2}'
++ PASSWORD=rmis#123
+++ echo 'rmis|rmis#123|ods|'
+++ awk -F '|' '{print $3}'
++ DSN=ods
++ read TABLENAME
++ echo -e '\nGet ' test_load ' produce:'
+
+Get  test_load  produce:
++ perl ctl_produce.pl test_load /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.2/control rmis rmis#123 ods
+Create Control File test_load.ctl successful!
+The file now in the directory /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.2/control/file/ 
++ read TABLENAME
++ echo -e '\nGet ' temp_test_load ' produce:'
+
+Get  temp_test_load  produce:
++ perl ctl_produce.pl temp_test_load /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.2/control rmis rmis#123 ods
+Create Control File temp_test_load.ctl successful!
+The file now in the directory /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.2/control/file/ 
++ read TABLENAME

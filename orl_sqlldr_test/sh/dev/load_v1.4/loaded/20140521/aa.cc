@@ -1,0 +1,7 @@
+-rw-r--r--    1 0        0              65 May 15 02:28 dir.ods.rmis_com_break_agrmn_list.20140401.000.000.00.i
+-rw-r--r--    1 0        0              62 May 15 02:28 dir.ods.rmis_death_dss.20140401.000.000.00.i
+-rw-r--r--    1 0        0              61 May 15 02:28 dir.ods.rmis_death_dss_pay.20140401.000.000.00.i
+-rw-r--r--    1 0        0              57 May 15 02:28 dir.ods.rmis_indmn_pay.20140401.000.000.00.i
+-rw-r--r--    1 0        0              61 May 15 02:28 dir.ods.rmis_pol_rtn_list.20140401.000.000.00.i
+-rw-r--r--    1 0        0              61 May 15 02:28 dir.ods.rmis_rtn_list.20140401.000.000.00.i
+-rw-r--r--    1 0        0              70 May 15 02:28 dir.ods.rmis_valid_sum_list.20140401.000.000.00.i

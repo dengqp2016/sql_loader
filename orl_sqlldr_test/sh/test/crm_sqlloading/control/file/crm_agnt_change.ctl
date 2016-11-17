@@ -1,0 +1,10 @@
+LOAD DATA 
+CHARACTERSET UTF8
+APPEND INTO TABLE  mid.crm_agnt_change
+FIELDS TERMINATED BY '|'
+(CONTNO
+,AGENTCHANGE
+,ENDSERDATE DATE "yyyy-mm-dd hh24:mi:ss"
+,UPD_DT FILLER DATE "yyyy-mm-dd hh24:mi:ss"
+,BATCHNO
+)

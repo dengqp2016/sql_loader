@@ -1,0 +1,108 @@
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Thu May 22 17:10:16 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.4/loaded/20140521/load/script/rmis_com_break_agrmn_list.ctl
+Data File:      /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.4/loaded/20140521/load/data/ods.rmis_com_break_agrmn_list.20140401.000.000.00.i.dat
+  Bad File:     /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.4/loaded/20140521/load/data/rmis_com_break_agrmn_list20140401.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table RMIS.RMIS_COM_BREAK_AGRMN_LIST, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CONTNO                              FIRST     *           CHARACTER            
+    Terminator string : '|'
+APPNTNAME                            NEXT     *           CHARACTER            
+    Terminator string : '|'
+APPAGE                               NEXT     *           CHARACTER            
+    Terminator string : '|'
+SEX                                  NEXT     *           CHARACTER            
+    Terminator string : '|'
+INSUREDNAME                          NEXT     *           CHARACTER            
+    Terminator string : '|'
+INSUREDAPPAGE                        NEXT     *           CHARACTER            
+    Terminator string : '|'
+INSUREDSEX                           NEXT     *           CHARACTER            
+    Terminator string : '|'
+RISKCODE                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+RISKNAME                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+AMNT                                 NEXT     *           CHARACTER            
+    Terminator string : '|'
+GETMONEY_ACT                         NEXT     *           CHARACTER            
+    Terminator string : '|'
+GETMONEY_PLAN                        NEXT     *           CHARACTER            
+    Terminator string : '|'
+DIFFERENCE                           NEXT     *           CHARACTER            
+    Terminator string : '|'
+PAYTERM                              NEXT     *           CHARACTER            
+    Terminator string : '|'
+POLAPPLYDATE                         NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+CODENAME                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+CVALIDATE                            NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+MAKEDATE                             NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+USERNAME                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+PAYCOUNT                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+PAYTODATE                            NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+AGENTCODE                            NEXT     *           CHARACTER            
+    Terminator string : '|'
+NAME_TD                              NEXT     *           CHARACTER            
+    Terminator string : '|'
+AGENTGROUP                           NEXT     *           CHARACTER            
+    Terminator string : '|'
+BANKCODE                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+BANKNODE                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+OPERATORCODE                         NEXT     *           CHARACTER            
+    Terminator string : '|'
+OPERATORNAME                         NEXT     *           CHARACTER            
+    Terminator string : '|'
+BRANCHCODE                           NEXT     *           CHARACTER            
+    Terminator string : '|'
+PHONEAGENTCODE                       NEXT     *           CHARACTER            
+    Terminator string : '|'
+PHONEAGENTNAME                       NEXT     *           CHARACTER            
+    Terminator string : '|'
+SERVERFLAG                           NEXT     *           CHARACTER            
+    Terminator string : '|'
+SCODE                                NEXT     *           CHARACTER            
+    Terminator string : '|'
+SNAME                                NEXT     *           CHARACTER            
+    Terminator string : '|'
+TCODE                                NEXT     *           CHARACTER            
+    Terminator string : '|'
+TNAME                                NEXT     *           CHARACTER            
+    Terminator string : '|'
+SALECHNL                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+EDORACCEPTNO                         NEXT     *           CHARACTER            
+    Terminator string : '|'
+EDORAPPDATE                          NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+SURECANCELLATIONDATE                 NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+TIMESTAMP_TD                         NEXT     *           CHARACTER            
+    Terminator string : '|'
+
+SQL*Loader-466: Column AGENTGROUP does not exist in table RMIS.RMIS_COM_BREAK_AGRMN_LIST.

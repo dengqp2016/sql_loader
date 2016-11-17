@@ -1,0 +1,114 @@
+nohup: ignoring input
+rm: cannot remove `run.out': No such file or directory
+on
+20140526
+Security mechanism not implemented.
+Interactive mode off.
+Security mechanism not implemented.
+Security mechanism not implemented.
+Security mechanism not implemented.
+dir.ods.crm_sale_org.20130910.000.00.i
+ods.crm_sale_org.20130910.000.000.00.i.dat 21646 178
+ods.crm_sale_org.20130910.000.000.00.i.dat
+Security mechanism not implemented.
+Local directory now /ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/data
+dir.sap.temp_test_load.20140423.000.00.z
+sap.temp_test_load.20140423.000.000.00.z.dat 20140423 3
+sap.temp_test_load.20140423.000.000.00.z.dat
+Security mechanism not implemented.
+Local directory now /ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/data
+dir.sap.temp_test_load.20140519.000.00.z
+sap.temp_test_load.20140519.000.000.00.z.dat 20140423 3
+sap.temp_test_load.20140519.000.000.00.z.dat
+Security mechanism not implemented.
+Local directory now /ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/data
+/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526
+Run dir.ods.crm_sale_org.20130910.000.00.i load sql:
+run sqlloader script:
+sqlldr userid=rmis/rmis#123@ods control=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/script/crm_sale_org.ctl  data=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/data/ods.crm_sale_org.20130910.000.000.00.i.dat  bad=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/data/crm_sale_org20130910.bad log=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/log/crm_sale_org20130910.log
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Mon May 26 13:30:12 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 178
+load success!!!
+
+Run dir.sap.temp_test_load.20140423.000.00.z load sql:
+run sqlloader script:
+sqlldr userid=rmis/rmis#123@ods control=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/script/temp_test_load.ctl  data=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/data/sap.temp_test_load.20140423.000.000.00.z.dat  bad=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/data/temp_test_load20140423.bad log=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/log/temp_test_load20140423.log
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Mon May 26 13:30:13 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Commit point reached - logical record count 2
+Commit point reached - logical record count 3
+load success!!!
+
+Run dir.sap.temp_test_load.20140519.000.00.z load sql:
+run sqlloader script:
+sqlldr userid=rmis/rmis#123@ods control=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/script/temp_test_load.ctl  data=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/data/sap.temp_test_load.20140519.000.000.00.z.dat  bad=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/data/temp_test_load20140519.bad log=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/log/temp_test_load20140519.log
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Mon May 26 13:30:13 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Commit point reached - logical record count 2
+Commit point reached - logical record count 3
+load success!!!
+
+20140525
+Security mechanism not implemented.
+Interactive mode off.
+Security mechanism not implemented.
+Security mechanism not implemented.
+dir.sap.temp_test_load.20140423.000.00.z
+sap.temp_test_load.20140423.000.000.00.z.dat 20140423 3
+sap.temp_test_load.20140423.000.000.00.z.dat
+Security mechanism not implemented.
+Local directory now /ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525/load/data
+dir.sap.temp_test_load.20140519.000.00.z
+sap.temp_test_load.20140519.000.000.00.z.dat 20140423 3
+sap.temp_test_load.20140519.000.000.00.z.dat
+Security mechanism not implemented.
+Local directory now /ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525/load/data
+/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525
+Run dir.sap.temp_test_load.20140423.000.00.z load sql:
+run sqlloader script:
+sqlldr userid=rmis/rmis#123@ods control=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525/load/script/temp_test_load.ctl  data=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525/load/data/sap.temp_test_load.20140423.000.000.00.z.dat  bad=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525/load/data/temp_test_load20140423.bad log=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525/load/log/temp_test_load20140423.log
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Mon May 26 13:30:13 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Commit point reached - logical record count 2
+Commit point reached - logical record count 3
+load success!!!
+
+Run dir.sap.temp_test_load.20140519.000.00.z load sql:
+run sqlloader script:
+sqlldr userid=rmis/rmis#123@ods control=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525/load/script/temp_test_load.ctl  data=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525/load/data/sap.temp_test_load.20140519.000.000.00.z.dat  bad=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525/load/data/temp_test_load20140519.bad log=/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525/load/log/temp_test_load20140519.log
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Mon May 26 13:30:14 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Commit point reached - logical record count 2
+Commit point reached - logical record count 3
+load success!!!
+
+on
+20140526
+20140526 exists
+Security mechanism not implemented.
+Interactive mode off.
+/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526
+20140525
+20140525 exists
+Security mechanism not implemented.
+Interactive mode off.
+/ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140525
+off

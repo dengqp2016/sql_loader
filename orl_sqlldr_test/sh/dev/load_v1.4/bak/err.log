@@ -1,0 +1,9 @@
+nohup: ignoring input
++ rm run.out
++ touch run.out
++ true
+++ cat ./run.unl
++ flag=off
++ echo off
++ '[' off == on ']'
++ break

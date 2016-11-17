@@ -1,0 +1,17 @@
+create table LOAD_LOG
+(
+  CONTROL_NAME  VARCHAR2(200),        ---控制文件名，包含表名，日期，批次号等信息
+  LOAD_TIME     DATE,                 ---数据加载时间
+  LOAD_FLAGCOD  CHAR(1),              ---加载标记，0代表加载成功，1代表加载失败
+  LOAD_FLAGNAME VARCHAR2(20),         ---加载标记名
+  BAK1          VARCHAR2(20),
+  BAK2          VARCHAR2(20),
+  BAK3          VARCHAR2(20)
+);
+
+create table TEST_LOAD
+(
+  ID    NUMBER(10),
+  UNAME VARCHAR2(20),
+  PHONE VARCHAR2(20)
+);

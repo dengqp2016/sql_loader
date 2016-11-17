@@ -1,0 +1,2 @@
+home=`pwd`
+echo $home

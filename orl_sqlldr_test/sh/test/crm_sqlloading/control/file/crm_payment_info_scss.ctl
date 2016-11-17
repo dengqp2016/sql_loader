@@ -1,0 +1,18 @@
+LOAD DATA 
+CHARACTERSET UTF8
+APPEND INTO TABLE  mid.crm_payment_info_scss
+FIELDS TERMINATED BY '|'
+(CONTNO
+,BANKDEALDATE DATE "yyyy-mm-dd hh24:mi:ss" "replace(:BANKDEALDATE,'0001-01-01',null)"
+,PAYTODATE DATE "yyyy-mm-dd hh24:mi:ss" "replace(:PAYTODATE,'0001-01-01',null)"
+,PAYCOUNT
+,MANAGECOM
+,AGENTGROUP
+,AGENTCODE
+,BRANCHTYPE
+,BRANCHTYPE2
+,MODIFYDATE DATE "yyyy-mm-dd hh24:mi:ss" "replace(:MODIFYDATE,'0001-01-01',null)"
+,PAYNO
+,UPD_DT FILLER DATE "yyyy-mm-dd hh24:mi:ss"
+,BATCHNO
+)

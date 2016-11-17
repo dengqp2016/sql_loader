@@ -1,0 +1,72 @@
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Mon May 26 13:30:12 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/script/crm_sale_org.ctl
+Character Set UTF8 specified for all input.
+
+Data File:      /ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/data/ods.crm_sale_org.20130910.000.000.00.i.dat
+  Bad File:     /ods/goldengate/orl_sqlldr_test/sh/test/load_ftp_test_v1.0/loaded/20140526/load/data/crm_sale_org20130910.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table RMIS.CRM_SALE_ORG, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+DATA_DT                             FIRST     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+ORG_CD                               NEXT     *           CHARACTER            
+    Terminator string : '|'
+ORG_NAME                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+MGT_ORG_CD                           NEXT     *           CHARACTER            
+    Terminator string : '|'
+CRT_DATE                             NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+CLOSE_DATE                           NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+SUPR_ORG_CD                          NEXT     *           CHARACTER            
+    Terminator string : '|'
+LAST_MDF_DATE                        NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+CHNL_IND                             NEXT     *           CHARACTER            
+    Terminator string : '|'
+SBJ_CHNL_IND                         NEXT     *           CHARACTER            
+    Terminator string : '|'
+UPD_DT                               NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+BATCHNO                              NEXT     *           CHARACTER            
+    Terminator string : '|'
+
+
+Table RMIS.CRM_SALE_ORG:
+  178 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 198144 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           178
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Mon May 26 13:30:12 2014
+Run ended on Mon May 26 13:30:12 2014
+
+Elapsed time was:     00:00:00.11
+CPU time was:         00:00:00.03

@@ -1,0 +1,24 @@
+LOAD DATA 
+CHARACTERSET UTF8
+APPEND INTO TABLE  mid.crm_new_pol_aprv
+FIELDS TERMINATED BY '|'
+(DATA FILLER DATE "yyyy-mm-dd hh24:mi:ss"
+,PRTNO
+,APPNTNO
+,APPNTNAME
+,PREM
+,INPUTDATE DATE "yyyy-mm-dd hh24:mi:ss" "replace(:INPUTDATE,'0001-01-01',null)"
+,RESULTDATE DATE "yyyy-mm-dd hh24:mi:ss" "replace(:RESULTDATE,'0001-01-01',null)"
+,ENDDATE DATE "yyyy-mm-dd hh24:mi:ss" "replace(:ENDDATE,'0001-01-01',null)"
+,RESULT
+,REASON
+,MANAGECOM
+,AGENTGROUP
+,AGENTCODE
+,BRANCHTYPE
+,BRANCHTYPE2
+,MAKEDATE
+,MODIFYDATE
+,UPD_DT FILLER DATE "yyyy-mm-dd hh24:mi:ss"
+,BATCHNO
+)

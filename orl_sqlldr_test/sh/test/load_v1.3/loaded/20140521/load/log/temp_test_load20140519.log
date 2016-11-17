@@ -1,0 +1,54 @@
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Wed May 21 18:38:35 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.3/loaded/20140521/load/script/temp_test_load.ctl
+Data File:      /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.3/loaded/20140521/load/data/sap.temp_test_load.20140519.000.000.00.z.dat
+  Bad File:     /ods/goldengate/orl_sqlldr_test/sh/dev/load_v1.3/loaded/20140521/load/data/temp_test_load20140519.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table RMIS.TEMP_TEST_LOAD, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *           CHARACTER            
+    Terminator string : '|'
+UNAME                                NEXT     *           CHARACTER            
+    Terminator string : '|'
+PHONE                                NEXT     *           CHARACTER            
+    Terminator string : '|'
+TX_DATA                              NEXT     *           DATE yyyy-mm-dd hh24:mi:ss
+    Terminator string : '|'
+
+
+Table RMIS.TEMP_TEST_LOAD:
+  3 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  66048 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             3
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed May 21 18:38:35 2014
+Run ended on Wed May 21 18:38:35 2014
+
+Elapsed time was:     00:00:00.08
+CPU time was:         00:00:00.02

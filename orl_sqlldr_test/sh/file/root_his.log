@@ -1,0 +1,1000 @@
+   11  ls
+   12  rm nclcdcmirr.jar nohup.out sendmail.jar RunLinuxCode.jar 
+   13  rm -rf nclcdcmirr.jar nohup.out sendmail.jar RunLinuxCode.jar 
+   14  ls
+   15  nohup java -jar nclcdcmirr.jar & 
+   16  ps -ef|grep java
+   17  date
+   18  ps -ef|grep java
+   19  kill -9 28157
+   20  ps -ef|grep java
+   21  ls
+   22  rm -rf ExcelMail nclcdcmirr.jar nohup.out 
+   23  jls
+   24  ls
+   25  nohup java -jar nclcdcmirr.jar & 
+   26  ps -ef|grep java
+   27  date
+   28  ps -ef|grep java
+   29  kill -9 29119
+   30  ps -ef|grep java
+   31  nohup java -jar nclcdcmirr.jar & 
+   32  ps -ef|grep java
+   33  date
+   34  ls -all
+   35  cd ~
+   36  date
+   37  ls
+   38  cd /ods
+   39  ls
+   40  cd odscdc_sit
+   41  ls
+   42  cd ..
+   43  ls
+   44  ll
+   45  cd /odscdc_sit
+   46  ls
+   47  cd odscdc_sit
+   48  ls
+   49  cd cdcfororacle
+   50  ls
+   51  cd bin
+   52  ls
+   53  ./dmconfigurets
+   54  ./dmshowversion
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd bin
+   59  java -version
+   60  cd
+   61  df
+   62  cd /ods
+   63  ls
+   64  cd odscdc_sit
+   65  ls
+   66  cd ..
+   67  ls
+   68  rm tst.18707 
+   69  ls
+   70  cd wyh
+   71  ls
+   72  cd ..
+   73  ls
+   74  cd
+   75  java -version
+   76  df
+   77  cd /odscommon
+   78  ls
+   79  du -h
+   80  du
+   81  cd ..
+   82  du
+   83  du -h
+   84  df
+   85  cd /odscommon
+   86  cd ..
+   87  df -h
+   88  ls
+   89  df -h
+   90  su - odsprg
+   91  date
+   92  cd ..
+   93  ls
+   94  cd webprg/
+   95  ls
+   96  cd cddmirr/
+   97  ls
+   98  ps -ef|grep java
+   99  kill -9 31630
+  100  ps -ef|grep java
+  101  ls
+  102  ps -ef|grep java
+  103  cd /tmp
+  104  ls
+  105  cd wh
+  106  ls
+  107  clear
+  108  l
+  109  ll
+  110  perl batch_o2t_job.pl force
+  111  cler
+  112  clear
+  113  ftp
+  114  cd /etc
+  115  ls
+  116  cd vsftpd
+  117  ls
+  118  ll
+  119  cat vsftpd.conf
+  120  ll
+  121  cat vsftpd.conf
+  122  ll
+  123  cat ftpusers 
+  124  cd ..
+  125  ls
+  126  cd webprg/
+  127  ls
+  128  cd cddmirr/
+  129  ls
+  130  ps -ef|grep java
+  131  kill -9 2506
+  132  ps -ef|grep java
+  133  ls
+  134  rm -rf comparedata.jar nclcdcmirr.jar ExcelMail/
+  135  ls
+  136  rm -rf nohup.out 
+  137  ls
+  138  nohup java -jar nclcdcmirr.jar & 
+  139  ps -ef|grep java
+  140  date
+  141  ps -ef|grep java
+  142  kill -9 3020
+  143  ps -ef|grep java
+  144  nohup java -jar nclcdcmirr.jar & 
+  145  ps -ef|grep java
+  146  telnet 10.1.6.143 11001
+  147  env
+  148  env 
+  149  env | grep telnet
+  150  cd /etc
+  151  ls
+  152  cd xinetd.d
+  153  ls
+  154  cat telnet
+  155  clear
+  156  cat telnet
+  157  cd /usr/sbin
+  158  cat in.telnetd
+  159  clar
+  160  ll
+  161  cd /ods
+  162  ls
+  163  cd odscdc_sit/
+  164  \ls
+  165  ls
+  166  cd cdcsitfororacle/
+  167  ls
+  168  cd bin
+  169  cd ..
+  170  ll
+  171  cd ..
+  172  ls
+  173  ll
+  174  su - nclods
+  175  ps -ef|grep java
+  176  ls
+  177  1;2cls
+  178  ps -ef| grep java
+  179  ls
+  180  pwd
+  181  ls
+  182  pwd
+  183  cd /
+  184  ls
+  185  cd
+  186  pwd
+  187  find -name CDD
+  188  find -name Ex*
+  189  pwd
+  190  cd /
+  191  find -name Ex*
+  192  find -name *_CDD.sh
+  193  su -odsprg
+  194  ls
+  195  pwd
+  196  cd nclods
+  197  ls
+  198  cd test
+  199  cd test_zcj/
+  200  ls
+  201  vi run.sh
+  202  ls
+  203  nohup sh run.sh &
+  204  cd log
+  205  ls
+  206  cat LLCLAIM
+  207  cat LLCLAIM.log
+  208  more LLCLAIM.log
+  209  cat sh LCCONT.sh            > ./log/LCCONT.log          2>&1 &
+  210  sh LCAPPNT.sh           > ./log/LCAPPNT.log         2>&1 &
+  211  sh LCINSURED.sh         > ./log/LCINSURED.log       2>&1 &
+  212  sh LCPOL.sh             > ./log/LCPOL.log           2>&1 &
+  213  sh LCINSUREACC.sh       > ./log/LCINSUREACC.log     2>&1 &
+  214  sh LPEDORITEM.sh        > ./log/LPEDORITEM.log      2>&1 &
+  215  sh LJTEMPFEE.sh         > ./log/LJTEMPFEE.log       2>&1 &
+  216  sh LLCLAIMDETAIL.sh     > ./log/LLCLAIMDETAIL.log   2>&1 &
+  217  sh LLCASE.sh            > ./log/LLCASE.log          2>&1 &
+  218  sh LAAGENT.sh           > ./log/LAAGENT.log         2>&1 &
+  219  sh LLCLAIM.sh           > ./log/LLCLAIM.log         2>&1 &
+  220  ps -ef | grep sh
+  221  ls
+  222  cat LAAGENT.log
+  223  cat  LLCASE.log
+  224  ls
+  225  rm 8.log
+  226  rm *.log
+  227  ls
+  228  rm -rf *.log
+  229  ls
+  230  cd ..
+  231  ls
+  232  ps -ef|grep sh
+  233  ls
+  234  cat nohup.out 
+  235  rm -rf nohup.out 
+  236  ls
+  237  sh  LZCARD.sh
+  238  ps -ef|grep  LZCARD.sh
+  239  ls
+  240  pwd
+  241  cat run.sh
+  242  ls
+  243  sh run.sh
+  244  cd log
+  245  ls
+  246  cat LCPOL.log
+  247  cd ..
+  248  ls
+  249  su - nclods
+  250  cd ..
+  251  ls
+  252  cd webprg/
+  253  ls
+  254  cd cddmirr/
+  255  ls
+  256  rm -rf comparedata.jar ExcelMail/ nclcdcmirr.jar nohup.out 
+  257  ls
+  258  ps -ef|grep java
+  259  kill -9 20047
+  260  ps -ef|grep java
+  261  ls
+  262  nohup java -jar nclcdcmirr.jar & 
+  263  ps -ef|grep java
+  264  kill -9 12601
+  265  ps -ef|grep java
+  266  ls
+  267  ps -ef|grep java
+  268  ls
+  269  rm -rf comparedata.jar 
+  270  sftp rmis_ftp_sit@10.1.160.8
+  271  set -o vi
+  272  sftp xxxrmis_ftp_sit@10.1.160.8
+  273  sftp osa_ftp_sit@10.1.160.8
+  274  ftp 10.1.160.8
+  275  ls
+  276  cd ..
+  277  ls
+  278  cd webprg/
+  279  ls
+  280  cd cddmirr/
+  281  ls
+  282  ps -ef|grep java
+  283  kill -9 12501
+  284  ps -ef|grep java
+  285  su - nclods
+  286  passwd odsprg
+  287  su - odsprg
+  288  passwd odsprg
+  289  su - nclods
+  290  su - odsprg
+  291  service iptables status
+  292  service iptables stop
+  293  chown odsprg:odsprg V33190-01.zip
+  294  cd /ods
+  295  ls
+  296  cd programs
+  297  ls
+  298  cd goldengate
+  299  ls
+  300  chown odsprg:odsprg V33190-01.zip
+  301  ll
+  302  su - odsprg
+  303  kill -9 7309
+  304  kill -9 7353
+  305  kill -9 8474
+  306  kill -9 39730
+  307  kill -9 41756
+  308  kill -9 50984
+  309  kill -9 52589
+  310  kill -9 65445
+  311  ls
+  312  cd OGG_Dir_Rel_Notes_11.2.1.0.0.
+  313  ls
+  314  cd GG
+  315  cd gg-director-serversetup_unix_v11_2_1_0_0_000.sh 
+  316  ls
+  317  cd ..
+  318  ls
+  319  cd GG_Directorgg-director/
+  320  ls
+  321  cd domain
+  322  ls
+  323  ./startWebLogic.sh 
+  324  ls
+  325  cd ..
+  326  ls
+  327  cd ..
+  328  ls
+  329  ks'
+  330  lls
+  331  id
+  332  cd /ods/programsxx
+  333  c d/ods
+  334  ls
+  335  cd /ods
+  336  ls
+  337  cd programs
+  338  ls
+  339  cd web*
+  340  ls
+  341  ll
+  342  chown odsprg:odsprg wls1036_generic.jar
+  343  ll
+  344  su - odsprg
+  345  ll
+  346  cd /ods
+  347  ls
+  348  cd programs
+  349  ls
+  350  cd web*
+  351  ls
+  352  chmod 777 wls1036_generic.jar
+  353  ll
+  354  su - odsprg
+  355  ls
+  356  cd1;2c ..
+  357  ls
+  358  cd ..
+  359  ls
+  360  cd webprg/
+  361  ls
+  362  cd cddmirr/
+  363  ls
+  364  su - nclods
+  365  vi /etc/inittab
+  366  ll
+  367  cat /etc/passwd
+  368  su - nclods
+  369  df -h
+  370  cd /ods
+  371  ls
+  372  ll
+  373  cd ogg
+  374  ls
+  375  cd ..
+  376  ll
+  377  cd wyh
+  378  ll
+  379  vi lis_fun.sql
+  380  ll
+  381  vi lis_fun.log
+  382  ll
+  383  cd liujj
+  384  ls
+  385  ll
+  386  ls -lh
+  387  cd ..
+  388  ll
+  389  cd lou
+  390  ll
+  391  cd ..
+  392  ll
+  393  cd scrit
+  394  cd script
+  395  ll
+  396  cd ..
+  397  ll
+  398  cd imp_script_dmp/
+  399  ll
+  400  du -sh
+  401  rm unload_nci_201403*.*
+  402  set -o vi
+  403  rm -rf unload_nci_201403*.*
+  404  rm -rf unload_nci_201402*.*
+  405  rm -rf unload_nci_201401*.*
+  406  ll
+  407  rm -rf unload_nci_201312*.*
+  408  rm -rf unload_nci_201311*.*
+  409  ll
+  410  rm -rf unload_nci_201310*.*
+  411  ll
+  412  ls -lh
+  413  cd ..
+  414  ll
+  415  cd imp_lisods_dmp
+  416  ll
+  417  view impdp_lissample_index.par
+  418  ll
+  419  vi impdp_lisods_data.par
+  420  ll
+  421  vi impdp_lisods_metadata.par
+  422  ll
+  423  su - nclods
+  424  cd /
+  425  ls
+  426  cd LIS_PROD/
+  427  ll
+  428  rm 1 
+  429  cd ..
+  430  rmdir LIS_PROD/
+  431  ls
+  432  cd -p
+  433  cd "-p"
+  434  cd '-p'
+  435  ls -ltr
+  436  cd nclods
+  437  ls
+  438  df -h
+  439  cd /dev
+  440  ls
+  441  cd ../
+  442  rm "-p
+  443  "
+  444  ll
+  445  cd acrmdb/
+  446  ls
+  447  cd ..
+  448  df -h
+  449  cd /ods
+  450  ls
+  451  ll
+  452  cd /oradata2
+  453  ls
+  454  cd /oradata
+  455  ls
+  456  ll
+  457  cd oradata_ods/
+  458  ll
+  459  cd REDO_A/
+  460  ll
+  461  cd /nclods/oracle/app/oracle/diag//rdbms/ods/ods/trace
+  462  vi al*.log
+  463  tail -f al*.log
+  464  cd /oradata2
+  465  ls
+  466  cd archivelog/
+  467  ls
+  468  ls -l | wc -l
+  469  set -o vi
+  470  ls -l | wc -l
+  471  du -sh
+  472  ls -l | wc -l
+  473  df -h
+  474  ls -l | wc -l
+  475  df -h
+  476  ls -l | wc -l
+  477  su - nclods
+  478  ps -ef|grep 12749
+  479  kill -9 12749
+  480  top
+  481  df -h
+  482  su - nclods
+  483  passwd odsprg
+  484  su - odsprg
+  485  env
+  486  env | grep ORACLE
+  487  ls
+  488  cd $ORACLE_HOME
+  489  ls
+  490  cd network
+  491  ls
+  492  cd admin
+  493  ls
+  494  cat tnsnames.ora 
+  495  ls
+  496  env | grep ORA
+  497  cd
+  498  ls -a
+  499  cat .bash_profile
+  500  su - ncldos
+  501  su - nclods
+  502  cd /
+  503  ll
+  504  more console.txt 
+  505             clear
+  506  ll
+  507  cd nclods
+  508  ll
+  509  cd ..
+  510  clear
+  511  ll
+  512  cd acrmdb/
+  513  ll
+  514  cd ..
+  515  rmdir acrmdb/
+  516  ll
+  517  cd /tmp
+  518  ll
+  519  cd ..
+  520  ll
+  521  cd nclods
+  522  ll
+  523  ls
+  524  rm FeiQ.exe testodbc.pl nohup.out nohup_count.log 
+  525  y
+  526  clear
+  527  ls
+  528  more pid
+  529  rm pid
+  530  ls
+  531  rm sar.xlsx 
+  532  ls
+  533  more import.log 
+  534   rm import.log 
+  535  ls
+  536  more iostat.mon 
+  537  ls
+  538  ls -ltr
+  539  rm afiedt.buf 
+  540  rm iostat.mon 
+  541  ls
+  542  cd test_zcj/
+  543  ls
+  544  cd ..
+  545  ls
+  546  vi Setup.class 
+  547  ls
+  548  clear
+  549  ls
+  550  vi execute_arcmain_bak20120106.pl 
+  551  ll
+  552  vi execute_arcmain_rec20120113.pl 
+  553  ll
+  554  pwd
+  555  rm execute_arcmain_*
+  556  ls
+  557  rm DataExtract_u.jar 
+  558  ls
+  559  cd cdc652
+  560  ls
+  561  cd ..
+  562  ls
+  563  cd cdchp6523
+  564  cd cdchp652
+  565  ll
+  566  cd ../CDC_Load/
+  567  ls
+  568  ll
+  569  cd ..
+  570  ll
+  571  ls
+  572  cd ETL27
+  573  ls
+  574  cd ../NCI_SQLULDR2/
+  575  ls
+  576  ll
+  577  cd ..
+  578  ls
+  579  ll
+  580  rm -rf NCI_SQLULDR2/
+  581  ls
+  582  cd ETL
+  583  ls
+  584  ll
+  585  cd APP
+  586  ls
+  587  cd ..
+  588  ls
+  589  cd tmp
+  590  ls
+  591  cd ..
+  592  ls
+  593  ll
+  594  ps -fu nclods
+  595  ls
+  596  cd ..
+  597  ls
+  598  cd ISCDD_652_Oracle/
+  599  ls
+  600  ll
+  601  cd ..
+  602  ls
+  603  cd quest
+  604  ls
+  605  ll
+  606  cd ..
+  607  ls
+  608  cd /odscommon
+  609  ls
+  610  ll
+  611  du -sh
+  612  cd /oradmp
+  613  ls
+  614  cd bakdup
+  615  cd backup
+  616  ls
+  617  ll
+  618  cd ..
+  619  ls
+  620  cd nclods
+  621  ls
+  622  ll
+  623  pwd
+  624  cd ..
+  625  ls
+  626  cd RMAN_ODS
+  627  ls
+  628  cd 20131023/
+  629  ls
+  630  du -sh
+  631  cd ..
+  632  ls
+  633  cd ..
+  634  ls
+  635  cd nclods
+  636  ls
+  637  cd ../..
+  638  ls
+  639  ll
+  640  df -h
+  641  fdisk -l
+  642  set -o vi
+  643  fdisk -l
+  644  passwd odsprg
+  645  cd /etc
+  646  ls
+  647  cat host.allow
+  648  ls host*
+  649  cat hosts.allow
+  650  ll
+  651  ls host*
+  652  cat hosts
+  653  cat host.conf
+  654  cat hosts.deny
+  655  man 5 hosts_options
+  656  df -h
+  657  top
+  658  df -h
+  659  fdisk -l
+  660  df -h
+  661  fdisk -l sda
+  662  fdisk -l /dev/sda
+  663  df -h
+  664  fdisk -l /dev/sdb
+  665  fdisk -l /dev/sdc
+  666  fdisk -l /dev/sdd
+  667  fdisk -l /dev/sde
+  668  fdisk -l /dev/sdf
+  669  fdisk /dev/sdc
+  670  fdisk -l /dev/sdc
+  671  df -k
+  672  fdisk /dev/mapper/mpathgp1
+  673  fdisk -l /dev/mapper/mpathgp1
+  674  fdisk -l /dev/mapper/mpathep1
+  675  fdisk -l /dev/mapper/mpathfp1
+  676  df -h
+  677  fdisk -l
+  678  df-h
+  679  df -h
+  680  fdisk -l
+  681  df -h
+  682  vgdisplay
+  683  pvdisplay
+  684  fdisk -l
+  685  more /etc/scsi/scsi
+  686  cat /proc/scsi/scsi
+  687  smartctl /dev/sda
+  688  smartctl -a /dev/sda
+  689  smartctl -a /dev/sdb
+  690  smartctl -a /dev/sdc
+  691  smartctl -a /dev/sdd
+  692  smartctl -a /dev/sde
+  693  smartctl -a /dev/sdf
+  694  smartctl -a /dev/sdg
+  695  smartctl -a /dev/sdh
+  696  smartctl -a /dev/sdi
+  697  smartctl -a /dev/sdj
+  698  smartctl -a /dev/sdk
+  699  smartctl -a /dev/sdl
+  700  smartctl -a /dev/sdm
+  701  smartctl -a /dev/sdn
+  702  smartctl -a /dev/sdo
+  703  smartctl -a /dev/sdp
+  704  df -h
+  705  vgdisplay
+  706  pvdisplay
+  707  fdisk -l|more
+  708   
+  709  fdisk -l
+  710  df -h
+  711  pvdisplay
+  712  fdisk -l
+  713  hostname
+  714  df -h
+  715  pvdisplay
+  716  fdisk -l
+  717  system-config-firewall
+  718  service
+  719  service --status-all|grep SE
+  720  service --status-all
+  721  sestatus -v
+  722  getenforce 
+  723  vi /etc/selinux/config 
+  724  system-config-firewall
+  725  sestatus 
+  726  sestatus -v
+  727  top
+  728  ps -ef|grep bteq
+  729  ps -ef|grep 32186
+  730  df -h
+  731  cd /oradata2
+  732  ls
+  733  cd oradata_ods
+  734  ls
+  735  ll
+  736  cd  ..
+  737  ls
+  738  df -h
+  739  cd /ods
+  740  ls
+  741  cd /oradata
+  742  ls
+  743  cd oradata_ods
+  744  ls
+  745  df -h
+  746  cd /ods
+  747  ls
+  748  cd wyh
+  749  ll
+  750  arcmain
+  751  mkdir arcmain_lisdata
+  752  cd arcmain_lisdata/
+  753  ll
+  754  vi bak_lisdata.arc
+  755  ll
+  756  more bak_lisdata.arc 
+  757  ll
+  758  cd /ods/wyh
+  759  ls -ltr
+  760  cd arcmain_lisdata/
+  761  ls -ltr
+  762  ls -ltrh
+  763  tail -f *.log
+  764  view /etc/exports
+  765  ll /
+  766  cd /test
+  767  cd /
+  768  mkdir test
+  769  ll
+  770  set -o vi
+  771  more /etc/exports
+  772  pwd
+  773  cd /test
+  774  ls
+  775  service nfs status
+  776  df -h
+  777  ll
+  778  touch 1
+  779  df -h
+  780  ll
+  781  vi 1
+  782  ll
+  783  vi /etc/exports
+  784  pwd
+  785  df -h
+  786  view /etc/exports
+  787  service nfs start
+  788  df -h
+  789  service nfsd status
+  790  service nfs status
+  791  service nfs restart
+  792  df -h
+  793  ps -ef|grep nfs
+  794  view /etc/exports
+  795  cd /
+  796  ll
+  797  rmdir test/
+  798  cd test
+  799  ls
+  800  rm 1
+  801  cd ..
+  802  rmdir test
+  803  df -h
+  804  service nfs status
+  805  set -o vi
+  806  service nfs status
+  807  service nfs restart
+  808  more /etc/exports
+  809  cd /ods/wyh
+  810  cd arcmain_lisdata/
+  811  ls -ltr
+  812  tail -f *.log
+  813  ls -lh
+  814  df -h
+  815  vi *.log
+  816  ls
+  817  cd /ods
+  818  ls
+  819  cd wyh
+  820  ll
+  821  clear
+  822  ll
+  823  cd arcmain_lisdata/
+  824  ll
+  825  vi bak_lisdata.arc 
+  826  ll
+  827  df -h
+  828  pwd
+  829  ll
+  830  nohup arcmain < bak_lisdata.arc > bak_lisdata.log 2>&1 &
+  831  ls -ltr
+  832  tail -f *.log
+  833  ll
+  834  ls -ltrh
+  835  set -o vi
+  836  tail -f *.log
+  837  pwd
+  838  tail -f *.log
+  839  df -h
+  840  tail -f *.log
+  841  ls -lhtr
+  842  tail -f *.log
+  843  df -h
+  844  cd /ods/wyh/arcmain_lisdata/
+  845  vi *.log
+  846  df -h
+  847  ls -ltrh
+  848  df -h
+  849  su - nclods
+  850  df -h
+  851  cd /tmp
+  852  ls
+  853  cd wyh
+  854  ls
+  855  ll
+  856  cd ..
+  857  ls
+  858  df -h
+  859  id
+  860  users
+  861  user
+  862  w
+  863  who
+  864  cd /ods
+  865  ls
+  866  cd ogg
+  867  ls
+  868  cd ..
+  869  ls
+  870  cd wyh
+  871  ls
+  872  ll
+  873  cd test.sh
+  874  ls
+  875  cd script
+  876  ls
+  877  cd ..
+  878  ls
+  879  ps
+  880  ps -ef | grep web
+  881  ls
+  882  df -h
+  883  ls
+  884  cd imp_script_dmp/
+  885  ls
+  886  cd ..
+  887  ls
+  888  cd ..
+  889  ls
+  890  ll
+  891  cd /tmp
+  892  ls
+  893  cd wh
+  894  ls
+  895  cd ..
+  896  ls
+  897  ll
+  898  ls
+  899  pwd
+  900  cd /home
+  901  ls
+  902  cd dsadm/
+  903  ls
+  904  cd /ods
+  905  ls
+  906  cd programs/
+  907  ls
+  908  cd goldengate/
+  909  ls
+  910  ll
+  911  cd ..
+  912  ls
+  913  df
+  914  cd /ods
+  915  ls
+  916  cd ogg
+  917  ls
+  918  cd ..
+  919  ls
+  920  ll
+  921  cd odscdc_sit/
+  922  ls
+  923  ll
+  924  cd out_put/
+  925  ls
+  926  ll
+  927  cd ..
+  928  ls
+  929  cd ..
+  930  ls
+  931  ll
+  932  cd wyh
+  933  ls
+  934  ll
+  935  cd liujj
+  936  ls
+  937  cd ..
+  938  ls
+  939  ll
+  940  cd ..
+  941  ls
+  942  ll
+  943  df
+  944  cd /ods
+  945  ls
+  946  cd /ncldos
+  947  ls
+  948  ll
+  949  pwd
+  950  cd /nclods
+  951  ls
+  952  pwd
+  953  ll
+  954  cd test_zcj
+  955  ls
+  956  cat run.sh
+  957  ll
+  958  ls
+  959  cd maxl
+  960  ls
+  961  ll
+  962  cat maxl.sh
+  963  cd ..
+  964  ls
+  965  ll
+  966  ftp 10.1.166.1
+  967  cd /ncldos
+  968  ls
+  969  pwd
+  970  cd /nclods
+  971  ls
+  972  ll
+  973  df
+  974  ls
+  975  pwd
+  976  ls
+  977  cd test_zcj
+  978  ls
+  979  pwd
+  980  pwd
+  981  ls
+  982  cd ..
+  983  pwd
+  984  ll
+  985  cd odscommon
+  986  ll
+  987  df -h
+  988  du -h
+  989  clear
+  990  pwd
+  991  ls -l
+  992  ls -l KVMHA/
+  993  ls -l nclods/
+  994  ls -l lost+found/
+  995  cd KVMHA/
+  996  ll
+  997  more hb-10.1.93.30 
+  998  last
+  999  pwd
+ 1000  cd ..
+ 1001  ls
+ 1002  ll
+ 1003  cd odscommon/
+ 1004  df -h
+ 1005  du
+ 1006  cd /tmp
+ 1007  du
+ 1008  cd /odscommon/
+ 1009  du
+ 1010  history 1000 > /root_his.log

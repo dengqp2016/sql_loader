@@ -1,0 +1,7 @@
+LOAD DATA 
+APPEND INTO TABLE  rmis.test_load
+FIELDS TERMINATED BY '|'
+(ID
+,UNAME
+,PHONE
+)
